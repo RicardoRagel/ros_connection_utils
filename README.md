@@ -45,9 +45,9 @@ The previous scripts have to be called in each terminal that you want to use the
 **Tip**: If you are going to use always the same setup, add this one to your *.bashrc* file. In case that you prefer simply make them more accesible, create an execution *alias* for each one:
 
 ```bash
-echo "alias init_ros_local=source /<path_to_scripts>/init_ros_local.sh <my_catkin_ws>" >> ~/.bashrc
-echo "alias init_ros_client=source /<path_to_scripts>/init_ros_client.sh <my_catkin_ws>" >> ~/.bashrc
-echo "alias init_ros_server=source /<path_to_scripts>/init_ros_server.sh <my_catkin_ws>" >> ~/.bashrc
+echo "alias init_ros_local=\"source /<path_to_scripts>/init_ros_local.sh <my_catkin_ws>\"" >> ~/.bashrc
+echo "alias init_ros_client=\"source /<path_to_scripts>/init_ros_client.sh <my_catkin_ws>\"" >> ~/.bashrc
+echo "alias init_ros_server=\"source /<path_to_scripts>/init_ros_server.sh <my_catkin_ws>\"" >> ~/.bashrc
 source ~/.bashrc
 ```
 
