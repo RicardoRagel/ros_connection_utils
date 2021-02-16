@@ -71,7 +71,7 @@ source /opt/ros/$ros_distro/setup.bash
 if [ $USING_CATKIN_WS -eq 1 ]
 then
     echo "-- Initializing ROS workspace: $CATKIN_WS"
-    source ~/$CATKIN_WS/devel/setup.sh
+    source $CATKIN_WS/devel/setup.sh
 fi
 
 # Connect to other Roscore (ROS_IP of this PC. ROS_MASTER_URI of the target roscore IP)

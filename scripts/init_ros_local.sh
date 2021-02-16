@@ -60,5 +60,5 @@ source /opt/ros/$ros_distro/setup.bash
 if [ $USING_CATKIN_WS -eq 1 ]
 then
     echo "-- Initializing ROS workspace: $CATKIN_WS"
-    source ~/$CATKIN_WS/devel/setup.sh
+    source $CATKIN_WS/devel/setup.sh
 fi
